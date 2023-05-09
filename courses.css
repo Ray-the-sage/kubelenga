@@ -1,0 +1,39 @@
+.courses-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.course {
+  width: 30%;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.course img {
+  width: 100%;
+  height: auto;
+}
+
+.course h3 {
+  margin-top: 10px;
+}
+
+.course p {
+  margin-top: 5px;
+}
+
+.course a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #4caf50;
+  color: #fff;
+  text-decoration: none;
+}
+
+.course a:hover {
+  background-color: #45a049;
+}
+

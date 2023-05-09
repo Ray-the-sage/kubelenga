@@ -1,0 +1,27 @@
+.grades-review {
+  margin: 20px;
+}
+
+.grades-review h2 {
+  font-size: 24px;
+}
+
+.grades-review table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.grades-review th,
+.grades-review td {
+  padding: 8px;
+  text-align: left;
+}
+
+.grades-review th {
+  background-color: #f2f2f2;
+}
+
+.grades-review tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
